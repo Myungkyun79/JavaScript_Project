@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+  <li>Html</li>
+  <li>JavaScript</li>
+  <li>Java</li>
+</ul>
+<ol>
+  <li>Html</li>
+  <li>JavaScript</li>
+  <li>Java</li>
+</ol>
+<script>
+  let ul = document.getElementsByTagName('li')[0];
+  let lis = ul.getElementsByTagName('li');
+  for ( let i=0; i < lis.length; i++) {
+    lis[i].style.color = 'red';
+  }
+</script>
+</body>
+</html>
