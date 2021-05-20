@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .box1 {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #F2B441;
+        background-color: #F2B441;
+        position: absolute;
+        border-radius: 10px;
+        animation-name: ball;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        text-align: center;
+      }
+      @keyframes ball {
+        0% {
+          top: 0
+        }
+        50% {
+          top: 100px;
+        }
+        100% {
+          top: 300px;
+        }
+      }
+    </style>
+</head>
+<body>
+  <div class="box1">Ball</div>
+</body>
+</html>
